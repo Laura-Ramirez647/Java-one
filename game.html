@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Game</title>
+    <link rel="stylesheet" href="game.css">
+    <script src="game.js" defer></script>
+</head>
+<body>
+    <div class="parentDiv">
+        <h1><b>Guessing Game!</b></h1>
+        <p id="text"> Guess a number between 1 and 10 to see if its correct</p>
+        <label class="try"><b>Guess:</b></label>
+        <br>
+        <br>
+        <input id="guess">
+        <br>
+
+        <button id="button" type="submit" onclick="checkGuess()" >submit</button>
+        <p id="result"></p>
+    </div>
+</body>
+</html>
